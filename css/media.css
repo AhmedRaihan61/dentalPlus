@@ -1,0 +1,902 @@
+/* ====================== [EXTRA SMALL DEVICE START]=========================== */
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* navbar section start */
+    .appin_cnt h5 {
+        top: -42px;
+        left: 86%;
+    }
+
+    .appin_cnt a {
+        margin-left: -142px;
+    }
+
+    .appointment {
+        padding: -39px;
+        height: 45px;
+        height: 56px;
+        background: #f69165;
+        top: -56px;
+        left: 56%;
+        width: 197px;
+        padding: 26px;
+    }
+
+    /* navbar section end */
+
+
+    /* banner section start */
+    .banner_cnt h3 {
+        margin-bottom: 10px;
+        padding: 4px 6px;
+        margin-top: 10px;
+        font-size: 23px;
+    }
+
+    .banner_cnt {
+        text-align: center;
+    }
+
+    .banner_cnt h1 {
+        padding: 4px 6px;
+        margin-top: 20px;
+        font-weight: 900;
+        margin: 0;
+        font-size: 27px;
+    }
+
+    .banner_cnt p {
+        margin-bottom: 0;
+        font-size: 13px;
+        padding: 12px 9%;
+    }
+
+    .banner_img {
+        text-align: center;
+    }
+
+    .banner_img img {
+        margin-top: 31px;
+        width: 55%;
+    }
+
+    /* banner section end */
+
+
+    /* agency section start*/
+    .agency_img {
+        text-align: center;
+    }
+
+    .agency_img .img-fluid {
+        max-width: 55%;
+        margin-top: -60px;
+    }
+
+    .agency_heading h3 {
+        text-align: center;
+        font-size: 23px;
+        margin-top: 40px;
+    }
+
+    .agency_heading p {
+        margin-bottom: 30px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .agency_header {
+        text-align: center;
+        padding: 0 11%;
+        margin-bottom: 37px;
+    }
+
+    .agency_icon {
+        margin-bottom: 17px;
+        text-align: center;
+    }
+
+    /* agency section end*/
+
+
+
+
+    /* meet doctor start */
+    .meet_doctor {
+        padding: 30px 0px;
+    }
+
+    .meet_heading p {
+        padding: 0px 18%;
+    }
+
+    .doctors img {
+        width: 65% !important;
+    }
+
+    .doctors {
+        text-align: center;
+    }
+
+    .doctors_info span::before {
+        left: -146px;
+        width: 294px;
+    }
+
+    .doctor_list:hover::before {
+        width: 310px;
+        left: 85px;
+        top: 0%;
+        height: 196px;
+    }
+
+    .doctors_info span::before {
+        width: 310px;
+        left: 20;
+        left: -154px;
+    }
+
+    /* meet doctor end */
+
+
+
+    /* our service start */
+    .services_heading {
+        text-align: center;
+    }
+
+    .services_heading p {
+        padding: 0 10%;
+    }
+
+    .services_details p {
+        padding: 6px 1%;
+        font-weight: 400;
+    }
+
+    .services_header h4 {
+        margin-left: 8px;
+        font-size: 22px;
+    }
+
+    .srvc {
+        text-align: center;
+        width: 72%;
+        margin: auto;
+        margin-bottom: 11px;
+    }
+
+    .services_heading p {
+        padding: 0 9%;
+    }
+
+    .services_heading h3 {
+        font-size: 23px;
+        margin-top: -25px;
+    }
+
+    /* our service end */
+
+
+
+    /* prising plan start */
+    .PricingPlan {
+        padding: 15px 0px;
+    }
+
+    .pricingHeading p {
+        margin-top: 15px;
+        padding: 0 9%;
+        margin-bottom: 30px;
+    }
+
+    .pricingHeading h3 {
+        font-size: 23px;
+    }
+
+    .plan h2 {
+        margin-top: 15px;
+        font-size: 23px;
+    }
+
+    .plan p {
+        font-size: 13px;
+    }
+
+    .price h1 {
+        font-size: 36px;
+    }
+
+    .plan {
+        width: 56%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    /* prising plan end */
+
+
+    /* our happy clients start */
+    .happy p {
+        padding: 20px 16%;
+    }
+
+    .happy h3 {
+        font-family: 'Roboto', sans-serif;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin-top: 42px;
+        transition: 0.9s all ease-in-out;
+        font-size: 23px;
+    }
+
+    /* our happy clients end */
+
+
+
+    /* contact section start */
+    .contactSection .contact_icon {
+        text-align: center;
+    }
+
+    i.fas.fa-tooth {
+        top: 6px;
+        left: 162px;
+    }
+
+    .contact_heading h3 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .contact_details p {
+        font-size: 13px;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .contact_cnt {
+        margin-bottom: 15px;
+    }
+
+    /* contact section end */
+
+
+    /* newsletter */
+    .contact_heading p {
+        font-size: 13px;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .newsletter_input {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .newsletter_link {
+        text-align: center;
+    }
+
+    .footer_cnt h6 {
+        font-family: 'Roboto', sans-serif;
+        color: #727272;
+        font-weight: 700;
+        font-size: 10px;
+    }
+}
+
+/* ====================== [EXTRA SMALL DEVICE END]=========================== */
+
+
+
+
+/* ====================== [ SMALL DEVICE START]=========================== */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* navbar section start */
+    .appin_cnt h5 {
+        top: -42px;
+        left: 86%;
+    }
+
+    .appin_cnt a {
+        margin-left: -142px;
+    }
+
+    .appointment {
+        padding: -39px;
+        height: 45px;
+        height: 56px;
+        background: #f69165;
+        top: -56px;
+        left: 56%;
+        width: 197px;
+        padding: 26px;
+    }
+
+    /* navbar section end */
+
+
+    /* banner section start */
+    .banner_cnt h3 {
+        margin-bottom: 10px;
+        padding: 4px 6px;
+        margin-top: 10px;
+        font-size: 23px;
+    }
+
+    .banner_cnt {
+        text-align: center;
+    }
+
+    .banner_cnt h1 {
+        padding: 4px 6px;
+        margin-top: 20px;
+        font-weight: 900;
+        margin: 0;
+        font-size: 27px;
+    }
+
+    .banner_cnt p {
+        margin-bottom: 0;
+        font-size: 13px;
+        padding: 12px 9%;
+    }
+
+    .banner_img {
+        text-align: center;
+    }
+
+    .banner_img img {
+        margin-top: 31px;
+        width: 55%;
+    }
+
+    /* banner section end */
+
+
+    /* agency section start*/
+    .agency_img {
+        text-align: center;
+    }
+
+    .agency_img .img-fluid {
+        max-width: 55%;
+        margin-top: -60px;
+    }
+
+    .agency_heading h3 {
+        text-align: center;
+        font-size: 23px;
+        margin-top: 40px;
+    }
+
+    .agency_heading p {
+        margin-bottom: 30px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .agency_header {
+        text-align: center;
+        padding: 0 11%;
+        margin-bottom: 37px;
+    }
+
+    .agency_icon {
+        margin-bottom: 17px;
+        text-align: center;
+    }
+
+    /* agency section end*/
+
+
+
+
+    /* meet doctor start */
+    .meet_doctor {
+        padding: 30px 0px;
+    }
+
+    .meet_heading p {
+        padding: 0px 18%;
+    }
+
+    .doctors img {
+        width: 80% !important;
+    }
+
+    .doctors {
+        text-align: center;
+    }
+
+    .doctors_info span::before {
+        left: -146px;
+        width: 294px;
+    }
+
+    .doctor_list:hover::before {
+        width: 407px;
+        left: 52px;
+        top: 0%;
+        height: 256px;
+    }
+
+    .doctors_info span::before {
+        width: 407px;
+        left: 20;
+        left: -204px;
+    }
+
+    /* meet doctor end */
+
+
+
+    /* our service start */
+    .services_heading {
+        text-align: center;
+    }
+
+    .services_heading p {
+        padding: 0 10%;
+    }
+
+    .services_details p {
+        padding: 6px 1%;
+        font-weight: 400;
+    }
+
+    .services_header h4 {
+        margin-left: 8px;
+        font-size: 22px;
+    }
+
+    .srvc {
+        text-align: center;
+        width: 82%;
+        margin: auto;
+        margin-bottom: 11px;
+    }
+
+    .services_heading p {
+        padding: 0 15%;
+        font-size: 14px;
+    }
+
+    .services_heading h3 {
+        font-size: 25px;
+        margin-top: -25px;
+    }
+
+    /* our service end */
+
+
+
+    /* prising plan start */
+    .PricingPlan {
+        padding: 15px 0px;
+    }
+
+    .pricingHeading p {
+        margin-top: 15px;
+        padding: 0 11%;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .pricingHeading h3 {
+        font-size: 26px;
+    }
+
+    .plan h2 {
+        margin-top: 15px;
+        font-size: 26px;
+    }
+
+    .plan p {
+        font-size: 14px;
+    }
+
+    .price h1 {
+        font-size: 36px;
+    }
+
+    .plan {
+        width: 67%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    /* prising plan end */
+
+
+    /* our happy clients start */
+    .happy p {
+        padding: 20px 16%;
+    }
+
+    .happy h3 {
+        font-family: 'Roboto', sans-serif;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin-top: 42px;
+        transition: 0.9s all ease-in-out;
+        font-size: 27px;
+    }
+
+    /* our happy clients end */
+
+
+
+    /* contact section start */
+    .contactSection .contact_icon {
+        text-align: center;
+    }
+
+    i.fas.fa-tooth {
+        top: 6px;
+        left: 162px;
+    }
+
+    .contact_heading h3 {
+        font-size: 29px;
+        text-align: center;
+    }
+
+    .contact_details p {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .contact_cnt {
+        margin-bottom: 15px;
+    }
+
+    /* contact section end */
+
+
+    /* newsletter */
+    .contact_heading p {
+        font-size: 13px;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .newsletter_input {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .newsletter_link {
+        text-align: center;
+    }
+
+    .footer_cnt h6 {
+        font-family: 'Roboto', sans-serif;
+        color: #727272;
+        font-weight: 700;
+        font-size: 11px;
+    }
+}
+
+/* ====================== [ SMALL DEVICE END]=========================== */
+
+
+
+
+/* ====================== [ MEDIUM DEVICE START]=========================== */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* navbar section start */
+    .appin_cnt h5 {
+        top: -42px;
+        left: 78%;
+    }
+
+    .appin_cnt a {
+        margin-left: -146px;
+    }
+
+    .appointment {
+        padding: -39px;
+        height: 45px;
+        height: 56px;
+        background: #f69165;
+        top: -56px;
+        left: 56%;
+        width: 197px;
+        padding: 26px;
+    }
+
+    /* navbar section end */
+
+
+    /* banner section start */
+    .banner_cnt h3 {
+        /* margin-bottom: 10px; */
+        padding: 4px 6px;
+        /* margin-top: 10px; */
+        font-size: 30px;
+    }
+
+    .banner_cnt {
+        /* text-align: center; */
+        /* margin-bottom: 235px; */
+        width: 135%;
+        top: 0;
+        /* top: 20px; */
+    }
+
+    .banner_cnt h1 {
+        padding: 4px 6px;
+        margin-top: 20px;
+        font-weight: 900;
+        margin: 0;
+        font-size: 32px;
+    }
+
+    .banner_cnt p {
+        margin-bottom: 0;
+        font-size: 14px;
+        padding: 12px 9%;
+        padding: 10px 78px 0px 0px;
+    }
+
+    .banner_img {
+        text-align: center;
+    }
+
+    .banner_img img {
+        margin-top: 31px;
+        width: 100%;
+    }
+
+    /* banner section end */
+
+
+    /* agency section start*/
+    .agency_img {
+        text-align: center;
+    }
+
+    .agency_img .img-fluid {
+        max-width: 80%;
+        margin-top: 179px;
+    }
+
+    .agency_heading h3 {
+        text-align: center;
+        font-size: 29px;
+        /* margin-top: 40px; */
+    }
+
+    .agency_heading p {
+        margin-bottom: 30px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .agency_header {
+        text-align: center;
+        /* padding: 0 11%; */
+        margin-bottom: 37px;
+    }
+
+    .agency_icon {
+        margin-bottom: 17px;
+        text-align: center;
+    }
+
+    /* agency section end*/
+
+
+
+
+    /* meet doctor start */
+    .meet_doctor {
+        padding: 30px 0px;
+    }
+
+    .meet_heading p {
+        padding: 0px 18%;
+    }
+
+    .doctors img {
+        width: 80% !important;
+    }
+
+    .doctors {
+        text-align: center;
+    }
+
+    .doctors_info span::before {
+        left: -146px;
+        width: 294px;
+    }
+
+    .doctor_list:hover::before {
+        width: 407px;
+        left: 52px;
+        top: 0%;
+        height: 256px;
+    }
+
+    .doctors_info span::before {
+        width: 407px;
+        left: 20;
+        left: -204px;
+    }
+
+    /* meet doctor end */
+
+
+
+    /* our service start */
+    .services_heading {
+        text-align: center;
+    }
+
+    .services_heading p {
+        padding: 0 10%;
+    }
+
+    .services_details p {
+        padding: 6px 1%;
+        font-weight: 400;
+    }
+
+    .services_header h4 {
+        margin-left: 8px;
+        font-size: 22px;
+    }
+
+    .srvc {
+        text-align: center;
+        width: 82%;
+        margin: auto;
+        margin-bottom: 11px;
+    }
+
+    .services_heading p {
+        padding: 0 15%;
+        font-size: 14px;
+    }
+
+    .services_heading h3 {
+        font-size: 25px;
+        margin-top: -25px;
+    }
+
+    /* our service end */
+
+
+
+    /* prising plan start */
+    .PricingPlan {
+        padding: 15px 0px;
+    }
+
+    .pricingHeading p {
+        margin-top: 15px;
+        padding: 0 11%;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .pricingHeading h3 {
+        font-size: 26px;
+    }
+
+    .plan h2 {
+        margin-top: 15px;
+        font-size: 26px;
+    }
+
+    .plan p {
+        font-size: 14px;
+    }
+
+    .price h1 {
+        font-size: 36px;
+    }
+
+    .plan {
+        width: 67%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    /* prising plan end */
+
+
+    /* our happy clients start */
+    .happy p {
+        padding: 20px 16%;
+    }
+
+    .happy h3 {
+        font-family: 'Roboto', sans-serif;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin-top: 42px;
+        transition: 0.9s all ease-in-out;
+        font-size: 27px;
+    }
+
+    /* our happy clients end */
+
+
+
+    /* contact section start */
+    .contactSection .contact_icon {
+        text-align: center;
+    }
+
+    i.fas.fa-tooth {
+        top: 6px;
+        left: 162px;
+    }
+
+    .contact_heading h3 {
+        font-size: 29px;
+        text-align: center;
+    }
+
+    .contact_details p {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .contact_cnt {
+        margin-bottom: 15px;
+    }
+
+    /* contact section end */
+
+
+    /* newsletter */
+    .contact_heading p {
+        font-size: 13px;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .newsletter_input {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .newsletter_link {
+        text-align: center;
+    }
+
+    .footer_cnt h6 {
+        font-family: 'Roboto', sans-serif;
+        color: #727272;
+        font-weight: 700;
+        font-size: 11px;
+    }
+}
+
+}
+
+/* ====================== [ MEDIUM DEVICE END]=========================== */
+
+
+
+
+/* ====================== [ LARGE DEVICE START]=========================== */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* ====================== [ LARGE DEVICE END]=========================== */
+
+
+
+/* ====================== [ EXTRA LARGE DEVICE START]=========================== */
+@media (min-width: 1200px) {}
+
+
+/* ====================== [ EXTRA LARGE DEVICE END]=========================== */

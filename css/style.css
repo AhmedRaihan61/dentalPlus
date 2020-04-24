@@ -1,0 +1,937 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* top header section start */
+.TopHeader {
+    margin-top: 25px;
+}
+
+.cntus {
+    margin-left: 72px;
+}
+
+.contact_icon {
+    position: relative;
+}
+
+.contact_icon i {
+    position: absolute;
+}
+
+i.fas.fa-phone-volume {
+    position: absolute;
+    top: 7px;
+    left: -30px;
+    font-size: 25px;
+    transform: skewX(37deg);
+    font-size: 35px;
+    color: #f69165;
+}
+
+i.far.fa-envelope {
+    color: #f69165;
+    font-size: 45px;
+    top: 0;
+    left: -50px;
+}
+
+i.fas.fa-map-marker-alt {
+    color: #f69165;
+    font-size: 40px;
+    top: 0;
+    left: -37px;
+}
+
+.contact_cnt h6 {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.contact_cnt small {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #a0a0a0;
+}
+
+
+/* top header section end */
+
+
+
+
+
+/* havbar section start */
+.navbar {
+    padding-left: 0;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    padding: 16px 17px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(202, 209, 208, 0.815) !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+
+    background: #00cce1;
+
+    margin-top: 43px;
+}
+
+.appin {
+    position: relative;
+}
+
+
+.appointment {
+    padding: -39px;
+    height: 45px;
+    position: absolute;
+    height: 68px;
+    background: #f69165;
+    transform: skewX(-18deg);
+    top: -72px;
+    left: 80%;
+    width: 227px;
+    padding: 36px;
+    transition: 0.4s all ease-in-out;
+}
+
+.appointment:hover {
+    background: #c56f4b;
+}
+
+.appin_cnt {
+    position: relative;
+}
+
+.appin_cnt h5 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: -51px;
+    font-weight: 700;
+    left: 84%;
+    color: #fff;
+}
+
+.appin_cnt a {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.appin_cnt a:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* navbar section end */
+
+
+
+
+
+/* banner section start */
+.BannerSection {
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.banner_img img {
+    margin-top: 98px;
+}
+
+.banner_img {}
+
+.banner_cnt {}
+
+.banner_cnt h3 {
+    /* color: #f69165; */
+    background: #f69165;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.hg {
+    min-height: 90vh;
+}
+
+.banner_cnt h1 {
+    background: #00cce1;
+    color: #fff;
+    display: inline-block;
+    padding: 0px 6px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+
+.banner_cnt p {
+    color: #636363;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 12px 0px;
+}
+
+.banner_btn {
+    margin-top: 20px;
+}
+
+.learn {
+    background: transparent;
+    border: transparent;
+    text-decoration: none;
+    text-decoration: none;
+    text-decoration: none !important;
+    color: #fff;
+    background: #f69165;
+    padding: 7px 15px;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    transition: 0.4s all ease-in-out;
+}
+
+.learn:hover {
+    background: #cc734ee7;
+    color: #fff;
+}
+
+.banner_btn a {
+    margin-right: 0;
+}
+
+.bookNow {
+    background: transparent;
+    border: transparent;
+    text-decoration: none;
+    text-decoration: none;
+    text-decoration: none !important;
+    color: #fff;
+    background: #00cce1;
+    padding: 7px 15px;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    transition: 0.4s all ease-in-out;
+}
+
+.bookNow:hover {
+    background: #04d2e9ce;
+    color: #fff;
+}
+
+/* banner section end */
+
+
+
+
+/* agency section start */
+.AgencySection {
+    margin-top: 100px;
+}
+
+.agency_img .img-fluid {
+    max-width: 87%;
+}
+
+.agency_info {}
+
+.agency_heading {}
+
+.agency_heading h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.agency_heading p {
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.agency_icon {
+    margin-bottom: 17px;
+}
+
+.agency_header {}
+
+.agency_header h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.agency_header p {
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+/* agency section end */
+
+
+
+
+/* ------===== Meet our doctors section start ======------ */
+.meet_doctor {
+    background: #f9f9f9;
+    padding: 100px 0px;
+}
+
+.meet_heading {}
+
+.meet_heading h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.meet_heading p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #707070;
+    /* margin-top: 2px; */
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.meet_icon {
+    padding: 15px 0px;
+}
+
+.doctors {}
+
+.doctors img {}
+
+.doctors_info {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 35px 0px;
+    /* border-bottom: 1px solid red; */
+    background: #fff;
+}
+
+.doctors_info h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+    transition: 0.5s all ease-in-out;
+}
+
+.doctors_info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 0;
+}
+
+.doctors_info span {
+    position: relative;
+}
+
+.doctors_info span::before {
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: -175px;
+    height: 4px;
+    width: 350px;
+    background-color: #00cce1;
+    transition: 0.5s all ease-in-out;
+}
+
+.doctor_list:hover .doctors_info span::before {
+    background-color: #f69165;
+    top: 14px;
+}
+
+.doctor_list {
+    position: relative;
+}
+
+.doctor_list::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background-color: #454545c7;
+    transition: 0.5s all ease-in-out;
+}
+
+.doctor_list:hover::before {
+    height: 66%;
+}
+
+.doctor_list:hover .doctors_info h6 {
+    color: #f69165;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.doctor_social_link i {
+    height: 0px;
+    width: 30px;
+    border: 1px solid #fff;
+    background-color: #f69165;
+    line-height: 30px;
+    opacity: 0;
+    color: #fff;
+    transition: 0.5s all ease-in-out;
+}
+
+.doctor_list:hover .doctor_social_link i {
+    opacity: 1;
+    height: 30px;
+}
+
+.doctor_social_link {
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    transform: translate(-47%, -30%);
+    text-align: center;
+}
+
+
+
+/* ------===== Meet our doctors section end ======------ */
+
+
+
+
+
+
+/* ----======= our services section start ======------- */
+.OurServices {
+    margin: 37px 0px;
+}
+
+.services_heading {}
+
+.services_heading h3 {
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.services_heading img {
+    padding: 5px 0px;
+}
+
+.services_heading p {
+    /* margin: 10px 0px; */
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.services_header {
+    display: inline-flex;
+}
+
+.services_header img {}
+
+.services_header h4 {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.services_details {}
+
+.services_details p {
+    display: inline-block;
+    color: #707070;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    padding: 6px 0px;
+    font-weight: 400;
+}
+
+.service_link {}
+
+.service_link a {}
+
+.service_link i {
+    color: #707070;
+}
+
+.srvc {
+    margin: 2px solid red;
+    border: 5px solid #ebebeb;
+    padding: 10px;
+    margin-bottom: 32px;
+    transition: 0.5s all ease-in-out;
+}
+
+.srvc:hover {
+    border: 5px solid #f69165;
+    box-shadow: 2px 2px 12px 0px;
+}
+
+.srvc:hover .services_header h4 {
+    color: #f69165;
+}
+
+.srvc:hover .service_link p {
+    color: #f69165;
+}
+
+.srvc:hover .service_link i {
+    color: #f69165;
+}
+
+/* ----======= our services section end ======------- */
+
+
+
+
+
+
+
+/* Our pricing Plan section start */
+.PricingPlan {
+    background: #f9f9f9;
+    /* margin: 100px 0px; */
+    padding: 85px 0px;
+}
+
+.pricingHeading {}
+
+.pricingHeading h3 {
+    text-transform: capitalize;
+    /* margin-top: 60px; */
+    margin-bottom: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.pricingHeading p {
+    color: #707070;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 12%;
+    font-weight: 500;
+    /* border-bottom: currentColor; */
+    margin-bottom: 70px;
+}
+
+.plan {
+    text-align: center;
+    text-transform: capitalize;
+    border: 3px solid #fff;
+    transition: 0.6s all ease-in-out;
+}
+
+.plan h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #00cce1;
+    font-weight: 700;
+    transition: 0.5s all ease-in-out;
+    margin-top: 15px;
+}
+
+.plan p {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.plan .btn {
+    background: transparent;
+    border: transparent;
+    background: #00cce1;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 6px 27px;
+    text-decoration: none;
+    border-radius: 0px;
+    margin-bottom: 24px;
+    transition: 0.4s all ease-in-out;
+}
+
+.price {
+    background: #fff;
+    color: #00cce1;
+    padding: 11px 0px;
+    transition: 0.8s all ease-in-out;
+}
+
+.price h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: 0.6s all ease-in-out;
+}
+
+.price h6 {
+    font-family: 'Roboto', sans-serif;
+    transition: 0.4s all ease-in-out;
+}
+
+.plan:hover h2 {
+    color: #f69165;
+    transform-origin: right;
+}
+
+.plan:hover .price {
+    background-color: #f69165;
+    color: #fff;
+    /* padding: 0px 135px; */
+    /* padding: 0 124%; */
+    /* padding: 10px; */
+}
+
+.plan:hover .price h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #fff;
+}
+
+.plan:hover .price h6 {
+    color: #fff;
+}
+
+.plan:hover .btn {
+    background-color: #f69165;
+    color: #fff;
+}
+
+.plan:hover {
+    /* border: 2px solid #f69165; */
+    box-shadow: inset 0px 0px 5px 4px #f69165;
+}
+
+/* Our pricing Plan section end */
+
+
+
+
+
+
+/* Our Happy Clients section start */
+.happy_clients {
+    background-image: url(../images/clients/bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 63vh;
+    position: relative;
+
+}
+
+.happy_clients::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background: #333333bf;
+    transition: 0.9s all ease-in-out;
+    transform: scale(0);
+}
+
+.happy_clients:hover::before {
+    height: 100%;
+    transform: scale(1);
+}
+
+.happy_clients:hover .happy h3 {
+    color: #fff;
+}
+
+.happy_clients:hover .happy p {
+    color: #fff;
+}
+
+.happy {}
+
+.happy h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 42px;
+    transition: 0.9s all ease-in-out;
+}
+
+.happy p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 20px 10%;
+    transition: 0.9s all ease-in-out;
+}
+
+
+/* Our Happy Clients section end */
+
+
+
+
+
+/* contact section start */
+.contactSection {
+    background-image: url(../images/Recent_Post/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contactSection .contact_icon {}
+
+.contactSection .contact_icon i {}
+
+i.fas.fa-tooth {
+    position: absolute;
+    color: #fff;
+    top: 6px;
+    left: -21px;
+    font-size: 25px;
+}
+
+.contact_heading h3 {
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 24px;
+}
+
+.contact_details {}
+
+.contact_details p {
+    color: #aca4a2;
+    font-weight: 500;
+}
+
+.contact_info {}
+
+.contact_icon {}
+
+.contact_icon i {}
+
+.contact_cnt {}
+
+.contact_cnt small {
+    /* margin: 24px 0px; */
+    /* padding: 14px 0px; */
+}
+
+.contact_cnt p {
+    margin-bottom: 0;
+    color: #aca4a2;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.contactSection .contact_info i {
+    color: #00cce1;
+    background: transparent;
+    /* margin: 10px 0px; */
+}
+
+/* recent post */
+.contact_heading {}
+
+.contact_heading h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.recent_img {
+    position: relative;
+}
+
+.recent_img_cnt {
+    top: 39px;
+    left: 108px;
+    padding: 14px 26px 5px 14px;
+    margin-bottom: 20px;
+}
+
+.recent_img_cnt p {
+    margin-bottom: 0;
+    color: #b4b4b4;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px -11% 0px 0px;
+}
+
+.recent_img_cnt small {
+    color: #777777;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* newslatter */
+.contact_heading {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.contact_heading h3 {
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.contact_heading p {
+    color: #b4b4b4;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+.newsletter_input {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"] {
+
+    padding: 6px 9px;
+    font-family: 'Roboto', sans-serif;
+    border: transparent;
+    background: transparent;
+    border: transparent;
+    background: #1b1b1b;
+    border: 1px solid #252525;
+    margin-right: 7px;
+}
+
+.newsletter_input button {
+    background: transparent;
+    border: transparent;
+    background: #f69165;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding: 6px 18px;
+    transition: 0.5s all ease-in-out;
+}
+
+.newsletter_input button:hover {
+    box-shadow: 0px 0px 4px 1px;
+}
+
+.newsletter_link h5 {
+    color: #fff;
+    display: initial;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.newsletter_link a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.newsletter_link i {
+    color: #fff;
+    height: 25px;
+    width: 20;
+    width: 25px;
+    background: #323232;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 9px;
+    position: relative;
+}
+
+.newsLetter_social i::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #323232;
+    transition: 0.5s all ease-in-out;
+    transform: scale(0.7);
+}
+
+.newsLetter_social i:hover::before {
+    background-color: #f69165;
+    transform: scale(1);
+}
+
+.newsLetter_social {
+    display: initial;
+}
+
+
+
+/* contact section end */
+
+
+
+
+/* footer section start */
+footer {
+    background: #161616;
+    padding: 16px 0px;
+    text-transform: capitalize;
+}
+
+.footer_cnt {}
+
+.footer_cnt h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #727272;
+    font-weight: 700;
+}
+
+.footer_cnt h6 a {
+    font-family: 'Roboto', sans-serif;
+    color: #00cce1;
+    font-size: 700;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+/* footer section end */
